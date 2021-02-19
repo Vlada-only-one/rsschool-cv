@@ -11,3 +11,8 @@
 * Git
 * Figma
 * Photoshop
+
+## Contacts
+
+* **E-mail:** stikhoenko.vladislava@gmail.com
+* **Skype:** [Vladislava](https://join.skype.com/invite/j9lryArEjwBh)
