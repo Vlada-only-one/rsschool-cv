@@ -94,3 +94,19 @@ p {
 .education p {
   width: 160px;
 }
+
+.footer-wrapper {
+  height: 200px;
+  background: linear-gradient(90deg, #1e3b70, #000, #1e3b70, #000, #1e3b70);
+}
+
+.english {
+  width: 1020px;
+}
+
+footer h2,
+.p-english {
+  text-align: center;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
