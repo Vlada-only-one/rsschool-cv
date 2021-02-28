@@ -68,3 +68,29 @@ a {
 a:hover {
   color: #fff;
 }
+
+.main-wrapper {
+  height: 210px;
+  background: linear-gradient(90deg, #fff, #1e3b70, #fff, #1e3b70, #fff, #1e3b70, #fff);
+}
+
+.skills {
+  margin-left: 170px;
+  width: 185px;
+}
+
+main h2,
+li,
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.education {
+  position: absolute;
+  top: 0;
+  margin-left: 660px;
+}
+
+.education p {
+  width: 160px;
+}
