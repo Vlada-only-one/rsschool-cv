@@ -83,7 +83,7 @@ a:hover {
 }
 
 .main-wrapper {
-  height: 250px;
+  /* height: 250px; */
   background: linear-gradient(90deg, #fff, #1e3b70, #fff, #1e3b70, #fff, #1e3b70, #fff);
 }
 
@@ -106,6 +106,27 @@ p {
 
 .education p {
   width: 160px;
+}
+
+.code-examples {
+  width: 1020px;
+}
+
+.code-examples-title {
+  color: #fff;
+}
+
+.code-examples-title,
+.code-examples-items {
+  text-align: center;
+}
+
+.code-examples-items {
+  list-style: none;
+}
+
+.code-examples-item {
+  color: #000;
 }
 
 .footer-wrapper {
