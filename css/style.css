@@ -123,3 +123,23 @@ footer h2,
   color: #fff;
   text-align: center;
 }
+
+.social {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+}
+
+.github-icon {
+  width: 60px;
+}
+.rsschool {
+  width: 120px;
+}
+
+.time-item {
+  font-size: 50px;
+  color: #fff;
+}
