@@ -1,13 +1,26 @@
 .header-wrapper {
-  height: 310px;
+  height: 360px;
   background: linear-gradient(#1e3b70, #000, #1e3b70, #000);
 }
 
 .container {
+  position: relative;
   margin: auto;
   display: flex;
   max-width: 1024px;
-  position: relative;
+}
+
+nav {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 1024px;
+}
+
+.nav__link {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .photo-and-name {
@@ -32,7 +45,7 @@ h1 {
   color: #fff;
 }
 
-.summary {
+.profile {
   margin-top: 60px;
   width: 520px;
   font-family: "Lato", sans-serif;
@@ -41,7 +54,7 @@ h1 {
 
 .contact {
   position: absolute;
-  top: 25px;
+  top: 50px;
   right: 5px;
 }
 
@@ -96,7 +109,6 @@ p {
 }
 
 .footer-wrapper {
-  height: 200px;
   background: linear-gradient(90deg, #1e3b70, #000, #1e3b70, #000, #1e3b70);
 }
 
@@ -106,7 +118,8 @@ p {
 
 footer h2,
 .p-english {
-  text-align: center;
-  color: #fff;
+  margin-bottom: 25px;
   font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
 }

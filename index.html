@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Curriculum vitae</title>
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
@@ -17,17 +17,24 @@
   <div class="header-wrapper">
     <div class="container">
       <header>
+        <nav>
+          <a class="nav__link" href="#profile">Profile</a>
+          <a class="nav__link" href="#contact">Contacts</a>
+          <a class="nav__link" href="#skills">Skills</a>
+          <a class="nav__link" href="#education">Education</a>
+          <a class="nav__link" href="#english">English</a>
+        </nav>
         <div class="photo-and-name">
-          <img class="photo" src="/img/photo.jpg" alt="photo">
+          <img class="photo" src="./img/photo.jpg" alt="photo-avatar">
           <h1>Vladislava Stikhoenko</h1>
         </div>
         <h3 class="profession">JUNIOR FRONTEND DEVELOPER</h3>
-        <p class="summary">
+        <p class="profile" id="profile">
           I have been studying web development for 4 months now. And every day I want to learn more and more
           development
           technologies and improve the existing knowledge to be perfect in the field of web and mobile development.
         </p>
-        <div class="contact">
+        <section class="contact" id="contact">
           <h2>Contacts</h2>
           <ul>
             <li>
@@ -45,14 +52,14 @@
               <a href="https://t.me/vlada_only_one">Telegram</a>
             </li>
           </ul>
-        </div>
+        </section>
       </header>
     </div>
   </div>
   <div class="main-wrapper">
     <div class="container">
       <main>
-        <div class="skills">
+        <section class="skills" id="skills">
           <h2>Professional Skills</h2>
           <hr>
           <ul>
@@ -63,8 +70,8 @@
             <li>Figma</li>
             <li>Photoshop</li>
           </ul>
-        </div>
-        <div class="education">
+        </section>
+        <div class="education" id="education">
           <h2>Education</h2>
           <hr>
           <p>
@@ -77,12 +84,12 @@
   <div class="footer-wrapper">
     <div class="container">
       <footer>
-        <div class="english">
+        <section class="english" id="english">
           <h2>English</h2>
           <p class="p-english">
             I have an English level A1 or Beginner, but I actively learning English.
           </p>
-        </div>
+        </section>
       </footer>
     </div>
   </div>
